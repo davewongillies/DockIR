@@ -37,6 +37,18 @@ Superdock IR remote receiver program.
 | 🔁 | Space | Useful for skipping in button assigning |
 | 10+ | - | |
 
+## Updating DockIR firmware
+
+1. Goto to [releases](releases) and download the `.uf2` file from the latest release
+2. Connect your Superdock to your PC with your SS1 powered off
+3. Inside the NVMe slot there are two small buttons, hold down the `BOOTSEL` button
+   then the tap `MCU RST` button. Note: you may need to remove your NVMe drive
+   to access these buttons
+4. It should show up as a drive on your PC (it should be labelled as `RPI RP2` or
+   something similar)
+5. Copy the the `.uf2` file onto the drive. Once it has flashed it will auto-eject
+   itself and your DockIR firmware will be updated
+
 ## To compile DockIR
 
 1. Set up your PC to point to use the Raspberry Pi Pico SDK, follow [README](https://github.com/raspberrypi/pico-sdk/blob/master/README.md) in [Raspberry Pi Pico SDK](https://github.com/raspberrypi/pico-sdk).
