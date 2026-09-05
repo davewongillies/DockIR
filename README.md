@@ -7,34 +7,34 @@ Superdock IR remote receiver program.
 | Remote Button | Key Mapping | Description |
 | ------------- | ----------- | ----------- |
 | Power | Unassigned | |
-| Contrast + | Q | |
-| Contrast - | R | |
-| TV/AV | S | |
-| ⏩ | T | |
-| ⏪ | U | |
+| Contrast + | M | Menu for MiSTer\_DVD |
+| Contrast - | T | Title Menu for MiSTer\_DVD |
+| TV/AV | D | Display for MiSTer\_DVD |
+| ⏩ | F | Fast Fwd for MiSTer\_DVD |
+| ⏪ | R | Rewind for MiSTer\_DVD |
 | P.N.S | V | |
 | Vol + | Volume up | |
 | Vol - | Volume down | |
 | Mute | Mute Volume | |
-| ⏮️ | Left bracket | |
-| ⏭️ | Right bracket | |
-| P Up | Page Up | |
-| P Down | Page Down | |
-| Menu | F12 | Brings up OSD |
-| L/R | Tab | Navigates back up a level in the OSD |
+| ⏮️ | N | Next Chapter for MiSTer\_DVD |
+| ⏭️ | P | Previous Chapter for MiSTer\_DVD |
+| P Up | Page Up | Previous Chapter for MiSTer\_DVD |
+| P Down | Page Down | Next Chapter for MiSTer\_DVD |
+| Menu | F12 | Brings up MiSTer OSD |
+| L/R | Tab | Navigates back up a level in the MiSTer OSD |
 | Cancel | Backspace | |
-| Exit | Escape | Closes OSD |
+| Exit | Escape | Closes MiSTer OSD |
 | Direction buttons | Up/down/left/right | |
 | OK | Enter | |
-| Zoom | Z | |
-| ⏸️ | A | |
-| ▶️ | B | |
-| ⏹️ | C | |
-| ⏏️ | D | |
-| Info | F9 | Open Linux terminal |
-| 🕒 | F2 | Show/hide dates in core listings |
+| Zoom | G | Angle for MiSTer\_DVD |
+| ⏸️ | Space | Pause in MiSTer\_DVD, skip button assignment in controller mapping |
+| ▶️ | A | |
+| ⏹️ | B | |
+| ⏏️ | C | |
+| Info | S | Subtitle for MiSTer\_DVD |
+| 🕒 | Unassigned | |
 | Numpad keys 0 through 9 | Numbers 0 through 9 | |
-| 🔁 | Space | Useful for skipping in button assigning |
+| 🔁 | Unassigned | |
 | 10+ | - | |
 
 ## Updating DockIR firmware

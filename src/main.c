@@ -60,19 +60,19 @@
 static uint8_t ir_to_hid(uint8_t rx_data) {
   switch (rx_data) {
     case key_power:          return HID_KEY_NONE;
-    case key_contrast_plus:  return HID_KEY_Q;
-    case key_contrast_minus: return HID_KEY_R;
-    case key_tv_av:          return HID_KEY_S;
+    case key_contrast_plus:  return HID_KEY_M;
+    case key_contrast_minus: return HID_KEY_T;
+    case key_tv_av:          return HID_KEY_D;
     case key_mute:           return HID_KEY_MUTE;
-    case key_skip_fwd:       return HID_KEY_T;
-    case key_skip_back:      return HID_KEY_U;
+    case key_skip_fwd:       return HID_KEY_F;
+    case key_skip_back:      return HID_KEY_R;
     case key_pns:            return HID_KEY_V;
 
     case key_vol_up:         return HID_KEY_VOLUME_UP;
-    case key_track_next:     return HID_KEY_BRACKET_RIGHT;
+    case key_track_next:     return HID_KEY_N;
     case key_p_up:           return HID_KEY_PAGE_UP;
     case key_vol_down:       return HID_KEY_VOLUME_DOWN;
-    case key_track_last:     return HID_KEY_BRACKET_LEFT;
+    case key_track_last:     return HID_KEY_P;
     case key_p_down:         return HID_KEY_PAGE_DOWN;
 
     // Navigation cluster
@@ -86,14 +86,14 @@ static uint8_t ir_to_hid(uint8_t rx_data) {
     case key_down:   return HID_KEY_ARROW_DOWN;
     case key_exit:   return HID_KEY_ESCAPE;
 
-    case key_zoom:  return HID_KEY_Z;
-    case key_info:  return HID_KEY_F9;
-    case key_timer: return HID_KEY_F2;
+    case key_zoom:  return HID_KEY_G;
+    case key_info:  return HID_KEY_S;
+    case key_timer: return HID_KEY_NONE;
 
-    case key_pause: return HID_KEY_A;
-    case key_play:  return HID_KEY_B;
-    case key_stop:  return HID_KEY_C;
-    case key_eject: return HID_KEY_D;
+    case key_pause: return HID_KEY_SPACE;
+    case key_play:  return HID_KEY_A;
+    case key_stop:  return HID_KEY_B;
+    case key_eject: return HID_KEY_C;
 
     // Numpad
     case key_1:       return HID_KEY_1;
@@ -107,7 +107,7 @@ static uint8_t ir_to_hid(uint8_t rx_data) {
     case key_9:       return HID_KEY_9;
     case key_10_plus: return HID_KEY_MINUS;
     case key_0:       return HID_KEY_0;
-    case key_repeat:  return HID_KEY_SPACE;
+    case key_repeat:  return HID_KEY_NONE;
 
     default: return 0;
   }
